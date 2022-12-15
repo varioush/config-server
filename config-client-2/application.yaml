@@ -5,29 +5,3 @@ one:
   two:
     three: 3
     four: 4
-
-#spring:
-#  cloud:
-#    config:
-#      enabled: false
-#  profiles:
-#    active: prod
-
-spring:
-  application:
-    name: config-client-2
-  profiles:
-    active: prod
-  config:
-    import: optional:configserver:http://localhost:8888
-
-management:
-  endpoints:
-    enabled-by-default: true
-    web:
-      exposure:
-        include: health, info, refresh
-
-
-server:
-  port: 8888
