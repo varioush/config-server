@@ -1,8 +1,0 @@
-hello:
-  message: "Bhushan"
-  done: "not yet"
-
-one:
-  two:
-    three: 4
-    four: 5
